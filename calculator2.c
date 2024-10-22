@@ -2,7 +2,7 @@
 int main() {
 
 
-	int int_a, int_b, int_c, int_v, int_p;
+	int int_a, int_b, int_c, int_v, int_s;
 
 	printf("Enter the length: ");
 	scanf("%d", &int_a);
@@ -15,11 +15,11 @@ int main() {
 
 
 
-	int_p = int_a + int_b + int_c;
+	int_s = ((int_a * int_b) + (int_b * int_c) + (int_a * int_c)) * 2;
 	int_v = int_a * int_b * int_c;
 
 
-	printf("P = %d\n", int_p);
+	printf("S = %d\n", int_s);
 	printf("V = %d\n", int_v);
 
 
@@ -27,6 +27,7 @@ int main() {
 
 
 	return 0;
+
 
 
 
